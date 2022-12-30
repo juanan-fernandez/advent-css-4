@@ -90,8 +90,6 @@ const Keyboard = () => {
 		const pressedKey = ev.key.toUpperCase();
 		let recalcRandom = false;
 		const { randomArray, randomIdx } = indexRef.current;
-		console.log(indexRef.current);
-		console.log(pressedKey);
 
 		switch (randomArray) {
 			case 1:
