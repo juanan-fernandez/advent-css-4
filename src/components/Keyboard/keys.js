@@ -1,4 +1,4 @@
-export default keysList = [
+export const keysList1 = [
 	'`',
 	'1',
 	'2',
@@ -13,6 +13,8 @@ export default keysList = [
 	'-',
 	'=',
 	'DEL',
+];
+export const keysList2 = [
 	'TAB',
 	'Q',
 	'W',
@@ -27,6 +29,8 @@ export default keysList = [
 	'[',
 	']',
 	'\\',
+];
+export const keysList3 = [
 	'CAPS',
 	'A',
 	'S',
@@ -40,6 +44,8 @@ export default keysList = [
 	';',
 	"'",
 	'ENTER',
+];
+export const keysList4 = [
 	'SHIFT',
 	'Z',
 	'X',

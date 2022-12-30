@@ -1,0 +1,17 @@
+.keyboard {
+   width: 1120px;
+   height: 320px;
+   padding: 2rem;
+   background:#F7F7F7;
+   border-radius: 40px;
+   display: flex;
+   flex-direction: column;
+}
+
+.row1{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   margin-bottom: 1rem;
+}
+
