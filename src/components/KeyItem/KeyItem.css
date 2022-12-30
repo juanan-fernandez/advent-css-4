@@ -1,6 +1,5 @@
 .key {
    height: 65px;
-   width: 65px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -47,7 +46,7 @@
 }
 
 .bump {
-   animation: bump 700ms linear infinite;
+   animation: bump 900ms linear infinite;
    color:red;
  }
  
@@ -58,11 +57,17 @@
    10% {
      transform: scale(0.9);
    }
-   30% {
-     transform: scale(1.1);
+   20% {
+    transform: scale(1.1);
    }
-   50% {
+   30% {
      transform: scale(1.15);
+   }
+   40% {
+    transform: scale(1.25);
+  }
+   50% {
+     transform: scale(1.40);
    }
    100% {
      transform: scale(1);
